@@ -29,7 +29,7 @@ function onSubmit(e){
     msg.classList.add('error')
     msg.innerHTML = 'Please Enter All Fields'
    }else{
-    console.log("nameInput.value")
+    console.log(nameInput.value)
     console.log(email.value)
 
    }
